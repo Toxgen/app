@@ -1,3 +1,3 @@
 # Hey #
 
-Just a place to put my python project files and other things
+idk this is just a random app im making/testing out
