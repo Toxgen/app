@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route("/other")
 def other():
-    return "<h1>other pade</h1>"
+    return render_template('other.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
