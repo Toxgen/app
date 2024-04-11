@@ -1,0 +1,10 @@
+body {
+    position: absolute;
+    padding: 10vh;
+    background-color: rgb(255, 0, 0);
+}
+
+.real {
+    font-size: 10px;
+    font-family:'Times New Roman', Times, serif;
+}

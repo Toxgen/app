@@ -9,7 +9,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="{{ url_for('static', filename='plswork.css') }}">
         <title>website :D</title>
         {% block head %}{% endblock %}
     </head>
@@ -18,7 +18,12 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <h1>YUH</h1>
-        <a href=" http://127.0.0.1:5000/other">second</a>
+        <a href="/other">second</a>
+        <div class="real">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas molestiae dolor perspiciatis non cum debitis dignissimos deleniti amet assumenda, repudiandae maiores dolorem voluptatibus eveniet fugiat. Eius corrupti consectetur incidunt labore.
+            </p>
+        </div>
         <script src="" async defer></script>
         {% block body %}{% endblock %}
     </body>
