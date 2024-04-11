@@ -1,10 +1,9 @@
-body {
-    position: absolute;
-    padding: 10vh;
-    background-color: rgb(255, 0, 0);
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.real {
-    font-size: 10px;
-    font-family:'Times New Roman', Times, serif;
+body {
+    background-color: #f34; 
+    background: linear-gradient(90deg, hsla(284, 100%, 53%, 1) 0%, hsla(77, 100%, 64%, 1) 100%);
+    position: absolute;
+    font-family: "Work-Sans", sans-serif;
+    font-size: 50px;
 }
